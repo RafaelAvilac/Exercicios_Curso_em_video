@@ -1,6 +1,6 @@
 programa
 {
-	/*32) [DESAFIO] Crie um jogo onde o computador vai sortear um número entre 1 e 5 o
+	/*32) [DESAFIO] Crie um jogo onde o computador vai sortear um número entre 1 e 5 o
 jogador vai tentar descobrir qual foi o valor sorteado.*/
 	inclua biblioteca Util
 	funcao inicio()
@@ -9,8 +9,9 @@ jogador vai tentar descobrir qual foi o valor sorteado.*/
        sorteio_maquina = Util.sorteia(1, 5)
 	  escreva("Tente a sorte.")
 	  Util.aguarde(5000)
+	  limpa()
 	  faca{
-		escreva("\nDigite seu paupite de 1 a 5 ou 0 para sair: ")
+		escreva("Digite seu palpite de 1 a 5 ou 0 para sair: ")
 		leia(chute)
 		Util.aguarde(5000)
 		se(chute == 0 ){
@@ -44,7 +45,7 @@ jogador vai tentar descobrir qual foi o valor sorteado.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 543; 
+ * @POSICAO-CURSOR = 385; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
