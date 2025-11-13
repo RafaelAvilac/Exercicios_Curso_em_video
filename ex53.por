@@ -113,7 +113,7 @@ programa
 			escreva("2- Quantas mulheres foram cadastradas\n")
 			escreva("3- A média de idade do grupo\n")
 			escreva("4- A média de idade dos homens\n")
-			escreva("5- Quantas mulheres tem mais de 20 anos\b")
+			escreva("5- Quantas mulheres tem mais de 20 anos\n")
 			escreva("6-Sair\n")
 			escreva("Informe a opção desejada..: ")
 			leia(opcao)
@@ -149,7 +149,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3635; 
+ * @POSICAO-CURSOR = 2963; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
